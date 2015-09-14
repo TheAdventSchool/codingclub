@@ -1,5 +1,9 @@
 # codingclub
 
+The first rule of Coding Club is you talk to everybody about Coding Club. We'll put all of our work here for others to see and build from.
+
+Before you get started understanding how to write code, try some of the fantastic and fun exercises at code.org: [Hour of Code](https://code.org/learn) and [Code Studio](https://studio.code.org/). Generally you should be able to do Code Studio 1-3 before you start writing code yourself.
+
 A glossary of terms
 -------------------
 
