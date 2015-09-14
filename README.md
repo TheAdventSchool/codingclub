@@ -15,6 +15,12 @@ print('Hello World');
 var myFavoriteFlavor = 'Pistachio';
 ```
 
+**Literal** A number or string.
+```Javascript
+var stringLiteral = 'This is a test';
+var numberLiteral = 6;
+```
+
 **Function** A group of statements that take some arguments and can return a value.
 ```Javascript
 function addThese(a,b) {
@@ -32,6 +38,8 @@ var myObject = {
   }
 }
 ```
+
+**Program** A collection of statements, functions, objects, and literals that are executed by the computer from top to bottom.
 
 <hr/>
 <sub>Note - I've taken some liberties here with inexact descriptions (like object) to make things simpler. Don't hold it against me. Or fix it, either way.</sub>
