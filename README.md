@@ -12,20 +12,20 @@ A glossary of terms
 print('Hello World');
 ```
 
-**Syntax** Rules that say what is a valid statement and what isn't. Usually this means where punctuation goes (for example, the semicolon ; after 'Hello World' and the quote in 'Hello World')
+**Syntax**: Rules that say what is a valid statement and what isn't. Usually this means where punctuation goes (for example, the semicolon ; after 'Hello World' and the quote in 'Hello World')
 
-**Variable** A "box" in which you can store a single thing - like a number or text or an object.
+**Variable**: A "box" in which you can store a single thing - like a number or text or an object.
 ```Javascript
 var myFavoriteFlavor = 'Pistachio';
 ```
 
-**Literal** A number or string.
+**Literal**: A number or string.
 ```Javascript
 var stringLiteral = 'This is a test';
 var numberLiteral = 6;
 ```
 
-**Function** A group of statements that take some arguments and can return a value.
+**Function**: A group of statements that take some arguments and can return a value.
 ```Javascript
 function addThese(a,b) {
   return a + b;
@@ -33,13 +33,28 @@ function addThese(a,b) {
 print('3 + 5 is ' + addThese(3,5));
 ```
 
-**Object** A group of variables and functions that share a "box" called **this** in Javascript.
+**Object**: A group of variables and functions that share a "box" called **this** in Javascript.
 ```Javascript
 var myObject = {
   name: 'Advent School',
   sayMyName: function () {
     print(this.name);
   }
+}
+```
+
+**Loop**: A group of statements that run over and over again until some test fails. There are generally two types of loops - while loops (run while this is true) and for loops (run some number of times).
+```Javascript
+// This will print the numbers from 0 to 9 (not 1 to 10!)
+for (var i = 0; i < 10; i++) {
+  print(i);
+}
+
+// This will print he numbers from 1 to 10 (because i = i + 1 happens before printing)
+var i = 0;
+while (i < 10) {
+  i = i + 1;
+  print(i);
 }
 ```
 
